@@ -34,6 +34,23 @@ font & reset css
 reset
 ---------------------------------------------
 */
+.navbar{
+  z-index: 10000;
+  position: fixed;
+  width: 100vw;
+  opacity: 0.6;
+  text-align:center !important;
+  background-attachment: fixed;
+  background-color: rgba(white, white, white, 0.6);
+  color: rgba(white, white, white, 0.6);
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link:hover{
+  color: rgba(yellow, yellow, yellow, 1)
+}
+
 .funny {
   display: inline;
 }
